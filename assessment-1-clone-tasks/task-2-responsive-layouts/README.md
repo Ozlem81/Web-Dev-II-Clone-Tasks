@@ -50,3 +50,6 @@ The design mock-ups are based around the following target devices.
 
 ## Desktop Wireframe
 ![](wireframes/desktop-wireframe.png)
+### AI Assistance Declaration
+
+ChatGPT was used to assist with aspects of the development process, including code explanations, debugging and testing. I reviewed and tested the final project myself and acknowledge the use of AI assistance.
