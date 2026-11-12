@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Teko:wght@400;500;600&display=swap');
+
+/* General page settings */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #070410;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+button {
+  font-family: 'Teko', sans-serif;
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
+
+.site-header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.site-header nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-header a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.site-header a:hover {
+  color: #4dccbd;
+}
+
+/* Buttons */
+button {
+  border: none;
+  border-radius: 16px;
+  padding: 8px 16px;
+  font-size: 2em;
+  cursor: pointer;
+  background: #4dccbd;
+  color: #070410;
+}
+
+button:hover {
+  background: #eef36a;
+}
+
+/* Movie list - mobile first */
+.movie-list {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+/* Movie cards */
+.movie-card {
+  background: #231651;
+  padding: 16px;
+  min-width: 0;
+}
+
+/* Movie posters - show complete images */
+.movie-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Movie information */
+.movie-copy h2 {
+  font-size: 1.8em;
+  margin: 16px 0 8px;
+  line-height: 1.2;
+}
+
+.movie-copy p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 16px 0;
+}
+
+.movie-copy button {
+  margin-top: 8px;
+}
+
+/* Tablet layout */
+@media (min-width: 720px) {
+  .site-header {
+    padding: 32px;
+  }
+
+  .movie-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    padding: 32px;
+  }
+
+  .movie-card {
+    padding: 16px;
+  }
+}
+
+/* Desktop layout */
+@media (min-width: 1024px) {
+  .site-header {
+    padding: 32px 48px;
+  }
+
+  .movie-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+    padding: 48px;
+  }
+
+  .movie-card {
+    padding: 16px;
+  }
+}
