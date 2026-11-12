@@ -1,19 +1,23 @@
-# React + Vite
+# Clone Task 1: Layout in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project recreates the Erased Tapes webpage using React and CSS as part of Web Development II Assessment 1.
 
-Currently, two official plugins are available:
+The page includes a navigation menu, article sections, image gallery, author information, comments section and footer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+- React
+- JavaScript
+- HTML and CSS
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Running the Project
 
-## Expanding the ESLint configuration
+1. Open the project folder in VS Code.
+2. Run `npm install`.
+3. Run `npm run dev`.
+4. Open the local URL displayed in the terminal.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-### AI Assistance Declaration
+## AI Assistance Declaration
 
 ChatGPT was used to assist with aspects of the development process, including code explanations, debugging and testing. I reviewed and tested the final project myself and acknowledge the use of AI assistance.
